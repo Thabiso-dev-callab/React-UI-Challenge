@@ -1,0 +1,72 @@
+.customer-collection {
+  background-color: #f2f2f2;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.collection-heading {
+font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #605b0c;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-card {
+  position: relative;
+}
+
+.image-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+/* Default button style */
+.collection-button {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* First button: square + pink background */
+.image-card:nth-child(1) .collection-button {
+  background-color: rgb(121, 29, 75);
+  color: white;
+  border-radius: 0; /* square edges */
+  padding-left: 50px; /* extra space on the left */
+  padding-right: 50px; /* extra space on the right */
+  padding-top: 3px; /* normal height */
+  padding-bottom: 3px;
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+
+  transform: translate(-50%,-450%);
+  
+}
+
+/* Last two buttons: curved + white background */
+.image-card:nth-child(2) .collection-button,
+.image-card:nth-child(3) .collection-button {
+  background-color: white;
+  color: black;
+  border-radius: 30em; /* curved edges */
+  border: 2px solid black;
+}
+.collection-button:hover {
+  opacity: 0.30;
+}

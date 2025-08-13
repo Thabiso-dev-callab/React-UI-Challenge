@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fce4ec; /* Light pink */
+  font-family: 'Georgia', serif;
+}
+
+.header__logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #5e2a2a;
+}
+
+.header__nav .nav__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.nav__list a:hover {
+  color: #c2185b; /* Darker pink */
+}
+
+.header__order-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.header__order-btn:hover {
+  background-color: #5d4037;
+}

@@ -1,0 +1,77 @@
+.dessert-showcase {
+  width: 100%;
+  
+}
+
+/* Pink background for heading + images */
+.dessert-top {
+  background-color: #fce4ec;
+  text-align: center;
+  padding: 1px 0;
+}
+
+.dessert-top h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Images row */
+.dessert-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dessert-info button:hover {
+  opacity: 0.30;
+}
+
+.dessert-card {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.dessert-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* White/gray section for text + buttons */
+.dessert-bottom {
+  background-color: #f2f2f2; /* light gray */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.dessert-info {
+  width: 250px;
+  text-align: center;
+}
+
+.dessert-info h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+}
+
+.dessert-info p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.dessert-info button {
+  padding: 10px 15px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dessert-info:last-child button {
+  background-color: rgb(154, 38, 96); /* different color for last button */
+  color: white;
+}

@@ -1,0 +1,33 @@
+:root{
+  --pink-top: #f5d6d6;      /* header pink */
+  --page-bg: #efeae6;       /* lower cream area */
+  --card-bg: #fff;          
+  --text: #222;
+  --muted: #6e6b66;
+  --cta-pink: #d87b86;      /* main button */
+  --cta-pale: #f7dfe0;      /* pale button */
+  --shadow: 0 8px 30px rgba(19,18,18,0.08);
+  --max-width: 1100px;
+}
+
+* { box-sizing: border-box; }
+html,body,#root { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: var(--text);
+  background: var(--page-bg);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height: 1.4;
+}
+
+/* center container */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* small helper */
+.text-muted { color: var(--muted); font-size: 0.95rem; }
